@@ -77,7 +77,7 @@ frontend/           # Código del frontend Vue
 ### Sin Docker
 
 1. Configura MySQL localmente y crea la base de datos:
-   CREATE DATABASE pasteleria;
+   CREATE DATABASE pasteleria
 
 2. Backend:
    cd backend

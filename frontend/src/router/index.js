@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import Home from '../views/Home.vue';
 import PastelList from '../components/PastelList.vue';
 import PastelForm from '../components/PastelForm.vue';
 import IngredienteList from '../components/IngredienteList.vue';
@@ -7,7 +8,8 @@ import IngredienteForm from '../components/IngredienteForm.vue';
 const routes = [
   {
     path: '/',
-    redirect: '/pasteles',
+    name: 'home',
+    component: Home,
   },
   {
     path: '/pasteles',

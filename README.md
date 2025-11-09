@@ -49,7 +49,6 @@ frontend/           # Código del frontend Vue
 ### Con Docker
 
 1. Clona el repositorio y ubicate en la raíz del proyecto:
-   git clone <tu-repositorio>
    cd pasteleria
 
 2. Levanta los contenedores:
